@@ -14,7 +14,7 @@
 
     let counter = 0;
 
-    buttons.foreach = function(button){
+    buttons.forEach(function(button){
         console.log(button)
 
         button.onclick = function(e){
@@ -44,6 +44,6 @@
         }
 
 
-    }
+    })
 
 })()
